@@ -1,0 +1,43 @@
+.foreign-info-section {
+  overflow: hidden;
+  background-color: var(--primary);
+  z-index: 1;
+}
+
+.foreign-info-section img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5%;
+  min-width: 600px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+/* how section  */
+.foreign-how-section {
+  background-color: var(--bs-gray-100);
+}
+
+.foreign-how-section .feature-card {
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+  margin-top: var(--i);
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foreign-how-section .feature-card .card-body {
+  flex: none !important;
+}
+
+/* foreign-requirements  */
+.foreign-requirements .feature-card .card-body {
+  flex: none;
+}
+
+.foreign-requirements .feature-card .card-body .card-title {
+  margin: 0 !important;
+}

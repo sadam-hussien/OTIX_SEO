@@ -1,0 +1,24 @@
+.search-group {
+  margin-bottom: var(--space-lg);
+  border-color: var(--border) !important;
+  height: 50px;
+  border-radius: 50px;
+  max-width: 500px;
+}
+
+.search-input {
+  background-color: transparent;
+  padding: 0;
+}
+
+.search-label {
+  padding: 0 20px;
+}
+
+.token-title {
+  color: var(--dark);
+}
+
+.token-subtitle {
+  color: var(--gray);
+}

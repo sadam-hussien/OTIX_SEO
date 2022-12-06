@@ -1,0 +1,7 @@
+.main-btn {
+  min-width: 120px;
+  height: 45px;
+  font-size: 1.05rem;
+  background-color: var(--primary);
+  padding: 0 var(--space-md);
+}

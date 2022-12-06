@@ -1,0 +1,27 @@
+/* *********** portfolio section  */
+.contact-page {
+  margin-bottom: var(--space-lg);
+  /* background-color: var(--bs-gray-100); */
+}
+
+.contact-page .form {
+  background-color: var(--bs-gray-100);
+  padding: var(--space-lg);
+}
+
+.contact-page .formControl {
+  margin-bottom: var(--space-md);
+  background: var(--bs-white);
+  border: none;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.contact-page textarea.formControl {
+  resize: none;
+  height: 100px;
+}
+
+.contact-page .content img {
+  margin-bottom: var(--space-md);
+}

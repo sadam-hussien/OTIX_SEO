@@ -1,0 +1,4 @@
+.accordion-button:lang(ar):after {
+  margin-right: auto;
+  margin-left: 0;
+}

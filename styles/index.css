@@ -1,0 +1,80 @@
+/* variables  */
+@import url(./variables.css);
+
+/* layouts  */
+@import url(layout/main/index.css);
+
+/* components  */
+@import url(components/index.css);
+
+/* modules  */
+@import url(modules/home/style/index.css);
+@import url(modules/foreignTrade/style/index.css);
+@import url(modules/fees/style/index.css);
+@import url(modules/supportedTokens/style/index.css);
+@import url(modules/contact/style/index.css);
+@import url(modules/blog/style/index.css);
+@import url(modules/faq/style/index.css);
+
+[lang="ar"] {
+  direction: rtl;
+}
+
+body {
+  font-family: var(--primary-en);
+  overflow-x: hidden;
+  color: var(--dark);
+  font-size: 16px;
+}
+
+body:lang(ar) {
+  font-family: var(--primary-ar);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.pt {
+  padding-top: calc(var(--space-lg) * 2);
+}
+
+.pb {
+  padding-bottom: calc(var(--space-lg) * 2);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.btn {
+  border: none;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: var(--secondary);
+  color: var(--bs-white);
+}
+
+.terms-content {
+  line-height: 1.7;
+  margin-bottom: var(--space-md);
+  color: var(--gray);
+}
+
+.terms-content a {
+  color: var(--bs-primary);
+}
+
+.sub-list {
+  padding-inline-start: var(--space-md);
+}

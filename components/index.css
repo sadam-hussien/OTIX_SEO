@@ -1,0 +1,18 @@
+/* 
+  * import all css component 
+  * import this file in main css file 
+*/
+
+/* core  */
+@import url(./core/title/index.css);
+
+@import url(./core/btn/index.css);
+
+@import url(./core/innerTitle/index.css);
+
+@import url(./core/listing/index.css);
+
+@import url(./core/containerInner/index.css);
+
+/* shared  */
+@import url(./shared/featureCard/index.css);

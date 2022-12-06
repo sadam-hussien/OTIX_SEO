@@ -1,0 +1,12 @@
+.inner-title-container {
+}
+
+.inner-title {
+  color: var(--dark);
+  margin-bottom: var(--space-md);
+}
+
+.inner-title-sub,
+.inner-title-sub2 {
+  margin-bottom: var(--space-sm);
+}

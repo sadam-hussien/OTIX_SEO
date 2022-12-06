@@ -1,0 +1,21 @@
+{
+  "fees_title": "Otix fees",
+  "fees_subtitle": "Enjoy the most competitive fees in the region whether you want to buy, sell or swap cryptocurrencies, or if you want to deposit/withdraw fiat.",
+  "btn_title": "go to market",
+  "deposit": "deposit",
+  "wire_transfer": "Wire Transfer",
+  "wire_desc": "Deposit money via the standard bank transfer at no fees.",
+  "wire_transfer_note_1": "Deposit processing might take up to 2 working days based on your bank",
+  "wire_transfer_note_2": "BitOasis does not charge any deposit fees",
+  "wire_transfer_note_3": "We do not cover any correspondent bank fees or international transfer fees associated with the transfer Your account will be credited with the amount we receive in our bank account",
+  "additional_notes": "additional notes",
+  "supported_countries": "supported countries",
+  "and_more": "and more",
+  "deposit_fee": "deposit fee",
+  "for_deposit_only": "for deposit only",
+  "easy_funding": "easy funding",
+  "easy_funding_desc": "Easy Funding connects your bank account to your BitOasis account and allows you to make fast and seamless bank-to-bank transfers from our app",
+  "easy_funding_note_1": "Most deposits are processed in less than 3h",
+  "easy_funding_note_2": "A small transaction fee is charged to cover the cost of the service",
+  "easy_funding_note_3": "The maximum fee is capped at AED 35.00"
+}

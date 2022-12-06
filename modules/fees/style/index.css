@@ -1,0 +1,86 @@
+.fees-card {
+  padding: var(--space-lg) var(--space-md);
+  background-color: var(--bs-gray-100);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0 0 0 / 0.1);
+}
+
+.fees-card:not(:last-child) {
+  margin-bottom: var(--space-lg);
+}
+
+.fees-card .subtitle {
+  margin-bottom: var(--space-sm);
+  color: var(--primary);
+}
+
+.fees-card .title {
+  margin-bottom: var(--space-sm);
+  color: var(--dark);
+}
+
+.fees-card .title .icon {
+  width: 45px;
+  height: 45px;
+  background-color: var(--primary);
+  color: var(--bs-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.fees-card .desc {
+  margin-bottom: var(--space-md);
+  /* color: var(--bs-gray-100); */
+}
+
+.fees-card .fees-notes-title {
+  color: var(--dark);
+  margin-bottom: var(--space-sm);
+}
+
+.fees-card .fees-notes {
+}
+
+.fees-card .fees-note-item {
+  margin-inline-start: var(--space-md);
+}
+
+.fees-card .fees-note-item:not(:last-child) {
+  margin-bottom: var(--space-sm);
+}
+
+.fees-card .fees-note-item::before {
+  content: "";
+  display: block;
+  min-width: 8px;
+  height: 8px;
+  background-color: var(--gray);
+  border-radius: 50%;
+  margin-inline-end: var(--space-sm);
+  margin-top: 8px;
+}
+
+.fees-card .fees-supported-countries span {
+  margin-inline-end: var(--space-md);
+}
+
+.fees-card .fees-supported-countries {
+  margin-top: var(--space-lg);
+  color: var(--dark);
+}
+
+.fees-card-fees-title {
+  background-color: var(--primary);
+  padding: var(--space-md) 0;
+  color: var(--bs-white);
+  border-radius: 10px 10px 0 0;
+}
+
+.fees-card-fees-body {
+  background-color: var(--bs-white);
+  padding: var(--space-md);
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0 10px rgba(0 0 0 / 0.1);
+}

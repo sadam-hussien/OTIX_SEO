@@ -1,0 +1,20 @@
+:root {
+  /* fonts  */
+  --primary-en: "Lato", sans-serif;
+  --primary-ar: "Cairo", sans-serif;
+
+  /* colors  */
+  --primary: #1c1c1c;
+  --primary-rgb: 28 28 28;
+  --secondary: #2f2f2f;
+  --dark: #000028;
+  --light: #fff;
+  --gray: #6c757d;
+  --border: #e4e4e4;
+
+  /* other  */
+  --header-height: 80px;
+  --space-lg: 40px;
+  --space-md: 20px;
+  --space-sm: 10px;
+}

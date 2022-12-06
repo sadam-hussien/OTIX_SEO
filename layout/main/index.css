@@ -1,0 +1,47 @@
+/* 
+  * import all layouts here
+  * import this css file in main css file
+*/
+
+@import url(./components/header/index.css);
+
+@import url(./components/footer/index.css);
+
+@import url(./components/cookiesCard/index.css);
+
+/* static layout  */
+.sub-layout {
+  overflow: hidden;
+  background-color: var(--primary);
+  /* margin-bottom: var(--space-lg); */
+  z-index: 1;
+}
+
+.sub-layout img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5%;
+  min-width: 600px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.layout-btn {
+  min-width: 150px;
+  height: 50px;
+  font-size: 1.05rem;
+  background-color: var(--bs-white);
+  padding: 0 var(--space-md);
+  border: 1px solid var(--bs-white);
+  transition: 0.3s;
+}
+
+.layout-btn:hover {
+  background-color: transparent;
+  color: var(--bs-white);
+}
+
+.sub-layout .main-title::after {
+  background-color: var(--light);
+}

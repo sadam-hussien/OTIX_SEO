@@ -1,0 +1,66 @@
+.custom-shape-divider-bottom-1665400122 {
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1665400122 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+}
+
+.custom-shape-divider-bottom-1665400122 .shape-fill {
+  fill: var(--primary);
+}
+
+.footer-content {
+  background-color: var(--primary);
+  padding: var(--space-lg) 0;
+}
+
+.footer-content .logo {
+  margin-bottom: var(--space-sm);
+}
+
+.footer-content .about-desc {
+  line-height: 1.6;
+  color: var(--bs-gray-200);
+}
+
+.footer-content .links-title {
+  color: var(--bs-white);
+  margin-bottom: var(--space-md);
+  height: 40px;
+}
+
+.footer-content .head-logo {
+  height: 40px;
+  margin-bottom: var(--space-md);
+}
+
+.footer-content .link-item {
+  color: var(--bs-gray-200);
+  transition: 0.3s;
+}
+
+.footer-content .link-item:not(:last-child) {
+  margin-bottom: var(--space-sm);
+}
+
+.footer-content .link-item:hover {
+  color: var(--bs-white);
+}
+
+.footer-content .apps-links {
+  gap: var(--space-md);
+}
+
+.footer-content .social-links {
+  margin-top: var(--space-md);
+}
+
+.footer-content .social-link {
+  font-size: 2.4rem;
+  color: var(--bs-gray-300);
+  margin-inline-end: var(--space-md);
+}
