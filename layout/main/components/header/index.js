@@ -96,18 +96,11 @@ const SignBtn = ({ classes, style, url, type, title }) => {
 };
 
 export default function Header() {
-  const { locale, pathname } = useRouter();
+  const { locale, pathname, locales } = useRouter();
 
   const [menuIsOPen, setMenuIsOpen] = useState(false);
 
-  const { i18n } = useTranslation(["header"]);
-
-  const {
-    language,
-    options: { locales },
-  } = i18n;
-
-  const getOtherLang = locales.filter((lang) => lang !== language).join("");
+  const getOtherLang = locales.filter((lang) => lang !== locale).join("");
 
   const toggleMenu = () => setMenuIsOpen((prev) => !prev);
 
@@ -155,7 +148,7 @@ export default function Header() {
             locale={getOtherLang}
             className="bg-transparent border-0 p-0 m-0 lang-btn text-capitalize"
           >
-            {language === "en" ? "العربية" : "english"}
+            {locale === "en" ? "العربية" : "english"}
           </Link>
 
           <button
