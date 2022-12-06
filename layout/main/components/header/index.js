@@ -102,11 +102,12 @@ export default function Header() {
 
   const { i18n } = useTranslation(["header"]);
 
-  const { language, options } = i18n;
+  const {
+    language,
+    options: { locales },
+  } = i18n;
 
-  const getOtherLang = options.locales
-    .filter((lang) => lang !== language)
-    .join("");
+  const getOtherLang = locales.filter((lang) => lang !== language).join("");
 
   const toggleMenu = () => setMenuIsOpen((prev) => !prev);
 
